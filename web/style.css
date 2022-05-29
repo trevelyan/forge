@@ -1,0 +1,139 @@
+body {
+  font-family: arial, helvetica, sans-serif;
+  font-size: 13px;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden; 
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+}
+
+.main {
+  margin-top: unset;
+  padding: unset;
+}
+
+.gameboard {
+  position: absolute;
+  background-image: url("img/gameboard.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.cardimg {
+  padding: 15px;
+  width: inherit;
+  height: inherit;
+}
+
+.battlefield {
+  width: 50vw;
+  height: 800px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.lands {
+  height: 500px;  
+  width: 200px;
+}
+
+.creatures {
+  height: 500px;
+  width: 200px;
+}
+
+.enchantments {
+  height: 500px;
+  width: 200px;
+}
+
+.deployed-card-image {
+  width: 100%;
+  height: auto;
+}
+.deployed-card {
+  width: 200px;
+  height: auto;
+  position: absolute;
+}
+.lands>.deployed-card:nth-child(1) {
+  top: 50px;
+}
+.lands>.deployed-card:nth-child(2) {
+  top: 100px;
+}
+.lands>.deployed-card:nth-child(3) {
+  top: 150px;
+}
+.lands>.deployed-card:nth-child(4) {
+  top: 200px;
+}
+.lands>.deployed-card:nth-child(5) {
+  top: 250px;
+}
+.lands>.deployed-card:nth-child(6) {
+  top: 300px;
+}
+.lands>.deployed-card:nth-child(7) {
+  top: 350px;
+}
+.lands>.deployed-card:nth-child(8) {
+  top: 400px;
+}
+.creatures>.deployed-card:nth-child(1) {
+  top: 50px;
+}
+.creatures>.deployed-card:nth-child(2) {
+  top: 100px;
+}
+.creatures>.deployed-card:nth-child(3) {
+  top: 150px;
+}
+.creatures>.deployed-card:nth-child(4) {
+  top: 200px;
+}
+.creatures>.deployed-card:nth-child(5) {
+  top: 250px;
+}
+.creatures>.deployed-card:nth-child(6) {
+  top: 300px;
+}
+.creatures>.deployed-card:nth-child(7) {
+  top: 350px;
+}
+.creatures>.deployed-card:nth-child(8) {
+  top: 400px;
+}
+.enchantments>.deployed-card:nth-child(1) {
+  top: 50px;
+}
+.enchantments>.deployed-card:nth-child(2) {
+  top: 100px;
+}
+.enchantments>.deployed-card:nth-child(3) {
+  top: 150px;
+}
+.enchantments>.deployed-card:nth-child(4) {
+  top: 200px;
+}
+.enchantments>.deployed-card:nth-child(5) {
+  top: 250px;
+}
+.enchantments>.deployed-card:nth-child(6) {
+  top: 300px;
+}
+.enchantments>.deployed-card:nth-child(7) {
+  top: 350px;
+}
+.enchantments>.deployed-card:nth-child(8) {
+  top: 400px;
+}
+
+
+
